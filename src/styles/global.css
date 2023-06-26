@@ -39,7 +39,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 78px;
+  height: 77px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   backdrop-filter: blur(8px) saturate(100%) contrast(55%) brightness(110%);
@@ -50,10 +50,11 @@ body {
 
 .header-title {
   color: #ffffff;
-  font-weight: bolder;
+  font-weight: 550;
   text-align: left;
   margin-left: 25px;
-  margin-top: 25px;
+  margin-top: 17px;
+  font-size: 30px;
 }
 
 @media (max-width: 767px) {
