@@ -64,7 +64,7 @@ body {
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
   .header-title {
     text-align: center;
     margin-left: 0;
