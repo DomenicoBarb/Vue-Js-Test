@@ -34,6 +34,10 @@ body {
   max-height: 100%;
 }
 
+.portrait-image:hover {
+  cursor: url('../assets/mariosmall.png'), auto;
+}
+
 .header {
   position: absolute;
   top: 0;
