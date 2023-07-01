@@ -1,7 +1,7 @@
 <template>
   <header class="navbar">
     <div class="header">
-        <h2 class="header-title" title="You found an Easter egg! Are there other ones? 🤔">
+        <h2 class="header-title">
           Domenico Barberi
         </h2>
     </div>
