@@ -107,12 +107,12 @@ body {
 }
 
 .about-page {
-  background: radial-gradient(circle, rgb(0, 187, 255), rgb(195, 161, 27));
+  background: radial-gradient(ellipse at top center, rgb(0, 187, 255), rgb(195, 161, 27));
   background-size: 300% 300%;
-  animation: colorSweep 20s ease infinite;
-  -webkit-background: radial-gradient(circle, rgb(0, 187, 255), rgb(33, 180, 43));
-  -webkit-background-size: 200% 200%;
-  -webkit-animation: colorSweep 20s ease infinite;
+  animation: colorSweep 10s ease infinite;
+  -webkit-background: radial-gradient(ellipse at top center, rgb(0, 187, 255), rgb(33, 180, 43));
+  -webkit-background-size: 300% 300%;
+  -webkit-animation: colorSweep 10s ease infinite;
   overflow-x: hidden;
   min-height: 100vh;
   position: relative;
@@ -147,17 +147,15 @@ body {
   }
 }
 
-
 .footer {
   padding: 12px;
-  background: radial-gradient(circle, rgb(17, 17, 17), rgb(87, 87, 87));
+  background: radial-gradient(ellipse at top left, rgb(17, 17, 17), rgb(87, 87, 87));
   background-size: 300% 300%;
-  animation: colorSweep 25s ease infinite;
-  -webkit-background: radial-gradient(circle, rgb(17, 17, 17), rgb(87, 87, 87));
+  animation: colorSweep 15s ease infinite;
+  -webkit-background: radial-gradient(ellipse at top left, rgb(17, 17, 17), rgb(87, 87, 87));
   -webkit-background-size: 500% 500%;
-  -webkit-animation: colorSweep 25s ease infinite;
+  -webkit-animation: colorSweep 15s ease infinite;
 }
-
 
 .footer-bar {
   display: flex;
@@ -175,9 +173,8 @@ body {
   width: 150px;
   max-width: 600px;
   border-radius: 25px;
-  -webkit-animation: shadow-drop-2-tb 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-in-fwd-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: shadow-drop-2-tb 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-in-fwd-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
+  -webkit-animation: shadow-drop-2-tb 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-in-fwd-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-2-tb 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-in-fwd-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-fwd-top {
