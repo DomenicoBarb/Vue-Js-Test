@@ -148,13 +148,13 @@ body {
 }
 
 .footer {
-  padding: 12px;
+  padding: 14px;
   background: radial-gradient(ellipse at top left, rgb(17, 17, 17), rgb(87, 87, 87));
   background-size: 300% 300%;
-  animation: colorSweep 15s ease infinite;
+  animation: colorSweep 10s ease infinite;
   -webkit-background: radial-gradient(ellipse at top left, rgb(17, 17, 17), rgb(87, 87, 87));
   -webkit-background-size: 500% 500%;
-  -webkit-animation: colorSweep 15s ease infinite;
+  -webkit-animation: colorSweep 10s ease infinite;
 }
 
 .footer-bar {
@@ -167,6 +167,61 @@ body {
   width: 34px;
   height: 34px;
   margin: 0 8px;
+}
+
+.logo:hover {
+  -webkit-animation: pulsate-fwd 1.2s ease-in-out infinite both;
+  animation: pulsate-fwd 1.2s ease-in-out infinite both;
+}
+
+.portfoliologo {
+  width: 34px;
+  height: 34px;
+  margin: 0 8px;
+  border-radius: 5px;
+}
+
+.portfoliologo:hover {
+  -webkit-animation: pulsate-fwd 1.2s ease-in-out infinite both;
+  animation: pulsate-fwd 1.2s ease-in-out infinite both;
+}
+
+@media screen and (max-width: 900px) {
+  .logo, .portfoliologo {
+    width: 26px;
+    height: 26px;
+    margin: 5px 5px;
+  }
+}
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .portrait-image {
