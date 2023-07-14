@@ -7,17 +7,6 @@
     </div>
   </header>
 </template>
-  
-
-<script>
-// import { Typography } from 'ant-design-vue';
-
-// export default {
-//   components: {
-//     'a-typography': Typography,
-//   },
-// }
-</script>
 
 <style>
 @import "../styles/global.css";
