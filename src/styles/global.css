@@ -311,8 +311,6 @@ body {
 
 article {
   margin-top: 24px;
-  margin-left: 48px;
-  margin-right: 48px;
   margin-bottom: 24px;
 }
 
@@ -330,7 +328,6 @@ article {
   color: #ffffff;
   -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, text-shadow-drop-br 0.6s both;
   animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, text-shadow-drop-br 0.6s both;
-
 }
 
 @-webkit-keyframes text-shadow-drop-br {

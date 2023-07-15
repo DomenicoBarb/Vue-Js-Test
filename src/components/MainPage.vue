@@ -46,7 +46,7 @@
                                 The Ant Design Typography component seems to have some quirks as well, it is registered as an &lt;article&gt;&lt;/article&gt; so I need to designate article styling for it to look the same as the standard &lt;p&gt;&lt;/p&gt; tags used above. That seems a little counter-intuitive to me but I am sure there is a reason for it, just complicates styling a little bit.
                         </Typography>
                         <Typography class="bio-text-formatting">
-                                I have also added the React version I made of this simple about me page to the footer below. I wanted to explore making the same app within React and Vue for fun! It was also to experiment with deploying the AWS (Amplify).
+                                I have also added the React version I made of this simple about me page to the footer below. I wanted to explore making the same app within React and Vue for fun! It was also to experiment with deploying to AWS (Amplify).
                         </Typography>
                     </div>
                 </AntCol>
